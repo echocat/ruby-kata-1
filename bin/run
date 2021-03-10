@@ -2,6 +2,5 @@
 # frozen_string_literal: true
 
 require 'bundler/setup'
-require 'echocat'
-
+require_relative '../lib/echocat'
 Echocat.run
