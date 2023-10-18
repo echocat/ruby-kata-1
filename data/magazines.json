@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Beautiful cooking",
+    "isbn": "5454-5587-3210",
+    "authors": "null-walter@echocat.org",
+    "publishedAt": "21.05.2011"
+  },
+  {
+    "title": "My familie and me",
+    "isbn": "4545-8541-2012",
+    "authors": "null-mueller@echocat.org",
+    "publishedAt": "10.07.2011"
+  },
+  {
+    "title": "Cooking for gourmets",
+    "isbn": "2365-5632-7854",
+    "authors": "null-lieblich@echocat.org,null-walter@echocat.org",
+    "publishedAt": "01.05.2012"
+  },
+  {
+    "title": "Gourmet",
+    "isbn": "2365-8745-7854",
+    "authors": "null-ferdinand@echocat.org",
+    "publishedAt": "14.06.2010"
+  },
+  {
+    "title": "The Wine Connoisseurs",
+    "isbn": "2547-8548-2541",
+    "authors": "null-walter@echocat.org",
+    "publishedAt": "12.12.2011"
+  },
+  {
+    "title": "Vinum",
+    "isbn": "1313-4545-8875",
+    "authors": "null-gustafsson@echocat.org",
+    "publishedAt": "23.02.2012"
+  }
+]

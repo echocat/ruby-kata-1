@@ -1,0 +1,32 @@
+[
+  {
+    "email": "null-walter@echocat.org",
+    "firstname": "Paul",
+    "lastname": "Walter"
+  },
+  {
+    "email": "null-mueller@echocat.org",
+    "firstname": "Max",
+    "lastname": "Müller"
+  },
+  {
+    "email": "null-ferdinand@echocat.org",
+    "firstname": "Franz",
+    "lastname": "Ferdinand"
+  },
+  {
+    "email": "null-gustafsson@echocat.org",
+    "firstname": "Karl",
+    "lastname": "Gustafsson"
+  },
+  {
+    "email": "null-lieblich@echocat.org",
+    "firstname": "Werner",
+    "lastname": "Lieblich"
+  },
+  {
+    "email": "null-rabe@echocat.org",
+    "firstname": "Harald",
+    "lastname": "Rabe"
+  }
+]
