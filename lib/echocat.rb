@@ -13,6 +13,7 @@ module Echocat
     ]
 
     convert_and_create_json_files(csv_file_paths)
+    books_and_magazines
   end
 
 
@@ -28,6 +29,15 @@ module Echocat
         file.puts JSON.pretty_generate(json_data)
       end
     end
+  end
+
+  def self.books_and_magazines
+    books_file = File.open 'data/books.json'
+    books_data = JSON.load books_file
+    magazines_file = File.open 'data/magazines.json'
+    magazines_data = JSON.load magazines_file
+
+    books_data + magazines_data
   end
 
 end
