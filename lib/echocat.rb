@@ -13,7 +13,8 @@ module Echocat
     ]
 
     convert_and_create_json_files(csv_file_paths)
-    books_and_magazines
+    find_by_isbn("5454-5587-3210")
+    find_by_authors_email("null-walter@echocat.org")
   end
 
 
@@ -40,4 +41,13 @@ module Echocat
     books_data + magazines_data
   end
 
+  def self.find_by_isbn(isbn)
+    books_and_magazines_data = books_and_magazines    
+    books_and_magazines_data.select{|data| data['isbn'] == isbn}.first
+  end
+
+  def self.find_by_authors_email(email)
+    books_and_magazines_data = books_and_magazines    
+    books_and_magazines_data.select{|data| data['authors'] == email}
+  end
 end
